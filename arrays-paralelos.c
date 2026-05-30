@@ -22,7 +22,7 @@ int main(){
    printf("\n--- Relatório de Produtos Cadastrados ---\n");
    for (int i = 0; i < 5; i++)
    {
-    printf("Produto: %-59s | Preço: R$ %'15.2f\n",nomes[i],precos[i]);
+    printf("Produto: %-59s | Preço: R$ %'15.2f\n", nomes[i], precos[i]);
    }
    return 0; 
 }
