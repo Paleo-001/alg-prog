@@ -24,5 +24,5 @@ int main(){
    {
     printf("Produto: %-59s | Preço: R$ %'15.2f\n",nomes[i],precos[i]);
    }
-   return 0;
+   return 0; 
 }
